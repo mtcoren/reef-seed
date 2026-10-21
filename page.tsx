@@ -85,7 +85,7 @@ export default function Page() {
 
       <section id="contact" style={{padding:'80px 20px',maxWidth:800,margin:'0 auto',textAlign:'center',background:'#f7f3e8'}}>
         <h2 style={{fontSize:'clamp(32px,5vw,48px)',color:'#14532d',marginBottom:12}}>Get In Touch</h2>
-        <p style={{color:'#6b8a63',marginBottom:24}}>Wholesale, questions, or custom orders — we reply within 24h.</p>
+        <p style={{color:'#6b8a63',marginBottom:24}}>Wholesale, questions, or custom orders — we reply within 48h.</p>
         <div style={{display:'grid',gap:12}}>
           <input placeholder="Your Name" style={{padding:'14px 18px',borderRadius:999,border:'1px solid #e0e8d8'}} />
           <input placeholder="Email" style={{padding:'14px 18px',borderRadius:999,border:'1px solid #e0e8d8'}} />
