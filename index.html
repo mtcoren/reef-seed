@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reef & Seed - 100% Natural Sea Moss & Juices</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#FFFEF8;color:#1a2e1a}
+h1,h2{font-family:'Playfair Display',serif}
+.navbar{position:fixed;top:0;left:0;right:0;z-index:999;background:rgba(255,254,248,0.95);backdrop-filter:blur(12px);border-bottom:1px solid #e8e8d5;display:flex;align-items:center;justify-content:space-between;padding:10px 24px}
+.nav-left{display:flex;align-items:center;gap:12px}
+.nav-logo{width:46px;height:46px;border-radius:50%;border:2px solid #d4af37;overflow:hidden}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{text-decoration:none;color:#14532d;font-weight:600;font-size:14px}
+.nav-links a:hover{color:#d4af37}
+.nav-cta{background:#14532d;color:#fff!important;padding:9px 18px;border-radius:999px}
+.hero{min-height:90vh;background:linear-gradient(180deg,#f7f3e8 0%,#e8f5d8 100%);display:flex;align-items:center;justify-content:center;padding:120px 20px 60px;text-align:center}
+.logo-badge{width:170px;height:170px;background:#fff;border-radius:50%;margin:0 auto 20px;box-shadow:0 8px 30px rgba(0,0,0,0.15);border:4px solid #d4af37;overflow:hidden}
+.tag{display:inline-block;background:#14532d;color:#fff;padding:6px 18px;border-radius:999px;font-size:12px;letter-spacing:0.15em;font-weight:700;margin-bottom:18px}
+.hero h1{font-size:clamp(40px,7vw,72px);line-height:0.9;color:#14532d}
+.hero h1 span{color:#d4af37;display:block;font-size:20px;font-family:'Inter';letter-spacing:0.3em;margin-top:8px}
+.hero p{max-width:560px;margin:18px auto 28px;color:#4a6741;font-size:18px;line-height:1.6}
+.btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn{padding:14px 32px;border-radius:999px;font-weight:700;text-decoration:none;display:inline-block}
+.btn-primary{background:#14532d;color:#fff} .btn-secondary{background:#fff;color:#14532d;border:2px solid #14532d}
+.products{padding:80px 20px;max-width:1200px;margin:0 auto}
+.section-tag{text-align:center;color:#d4af37;font-weight:700;letter-spacing:0.2em;font-size:12px;margin-bottom:12px}
+.products h2{text-align:center;font-size:clamp(32px,5vw,48px);color:#14532d;margin-bottom:12px}
+.products .sub{text-align:center;color:#6b8a63;max-width:600px;margin:0 auto 50px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px}
+.card{background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 10px 40px rgba(20,83,45,0.08);border:1px solid #e8e8d5}
+.card img{width:100%;height:320px;object-fit:cover;background:#f7f3e8}
+.card-body{padding:20px 22px 24px}
+.badges{display:flex;gap:12px;margin-top:40px;justify-content:center;flex-wrap:wrap}
+.badge{background:#fff;padding:10px 16px;border-radius:999px;border:1px solid #e0e8d8;font-size:12px;font-weight:600;color:#14532d}
+.footer{background:#14532d;color:#d1e7c9;padding:40px 20px;text-align:center;margin-top:60px}
+@media(max-width:768px){.nav-links{display:none}}
+</style>
+</head>
+<body>
+<nav class="navbar">
+<div class="nav-left">
+<div class="nav-logo"><img src="./logo.png" style="width:100%;height:100%;object-fit:cover" alt="Reef & Seed"></div>
+<div style="font-family:'Playfair Display';font-weight:900;color:#14532d;font-size:18px">REEF & SEED</div>
+</div>
+<div class="nav-links">
+<a href="#products">Collection</a>
+<a href="#story">Our Story</a>
+<a href="#products">Sea Moss</a>
+<a href="#products">Juices</a>
+<a href="#products" class="nav-cta">Shop Now</a>
+</div>
+</nav>
+
+<section class="hero">
+<div>
+<div class="logo-badge"><img src="./logo.png" style="width:100%;height:100%;object-fit:cover" alt="Reef & Seed"></div>
+<div class="tag">WILD HARVESTED FROM ST. LUCIA</div>
+<h1>REEF & SEED<span>100% NATURAL</span></h1>
+<p>Premium Sea Moss gels and cold-pressed juices. No added sugar, non-GMO, plant-based, and naturally nourishing.</p>
+<div class="btns"><a href="#products" class="btn btn-primary">Shop Collection</a><a href="#story" class="btn btn-secondary">Our Story</a></div>
+</div>
+</section>
+
+<section class="products" id="products">
+<div class="section-tag">OUR COLLECTION</div>
+<h2>Sea Moss & Cold-Pressed Juices</h2>
+<p class="sub">Small batch, organic infusions with St. Lucia sea moss and tropical fruits.</p>
+<div class="grid">
+<div class="card"><img src="./images/mango.jpg" alt="Mango"><div class="card-body"><h3>Mango & Dates</h3><p>St. Lucia Sea Moss + Organic Mango + Dates - BEST SELLER</p></div></div>
+<div class="card"><img src="./images/strawberry.jpg" alt="Strawberry"><div class="card-body"><h3>Strawberry & Dates</h3><p>Antioxidant Blend</p></div></div>
+<div class="card"><img src="./images/original.jpg" alt="Original"><div class="card-body"><h3>Original Sea Moss</h3><p>Wild Harvested - Pure</p></div></div>
+<div class="card"><img src="./images/pineapple.jpg" alt="Pineapple"><div class="card-body"><h3>Pineapple & Dates</h3><p>Tropical Blend</p></div></div>
+<div class="card"><img src="./images/juices.jpg" alt="Juices"><div class="card-body"><h3>Emerald & Ruby Juices</h3><p>100% Natural Cold Pressed</p></div></div>
+<div class="card"><img src="./logo.png" alt="Master"><div class="card-body"><h3>Master Blend</h3><p>Mango, Strawberry, Pineapple, Dates + Sea Moss - All Fruits in One Label</p></div></div>
+</div>
+<div class="badges"><div class="badge">🌱 No Added Sugar</div><div class="badge">🌿 Non-GMO</div><div class="badge">💧 Cold Pressed</div><div class="badge">🌍 Plant Based</div><div class="badge">❤️ Naturally Nourishing</div></div>
+</section>
+
+<section id="story" class="products" style="background:#f7f3e8;padding-top:60px">
+<div class="section-tag">REEF TO SEED</div>
+<h2>Why Reef & Seed?</h2>
+<p class="sub">We source wild sea moss from the pristine waters of St. Lucia, then infuse it with organic fruits and dates for flavor that nourishes.</p>
+</section>
+
+<div class="footer"><h2 style="color:#fff">Reef & Seed</h2><p>100% Natural Sea Moss • Wild Harvested from St. Lucia</p><p style="margin-top:20px;font-size:12px;opacity:0.7">© 2026 Reef & Seed</p></div>
+</body>
+</html>
